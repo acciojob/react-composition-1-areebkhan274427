@@ -12,10 +12,8 @@ function Tabs(props){
     return(
         <div>
             <ul>{arrayDataItems}</ul>
-            {
-                content &&
                 <p>{content}</p>
-            }
+
 
         </div>
     )
