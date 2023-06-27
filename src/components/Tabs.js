@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 
 function Tabs(props){
-    let [content,setContent] = useState('');
+    let [content,setContent] = useState(props.array[0].content);
     console.log(props);
     // function contentSet(content){
     //     setContent(content);
